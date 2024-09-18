@@ -1,8 +1,8 @@
 function bubbleSort (arrData = []) { 
   const output = [] 
   //here we will compare each element of current index and element of next index, if next index element is greater than current index than we will interchange values index
-    for (int i = 0; i < arrData.length ; i++) { 
-      for(int j = 0; j < arrData.length - 1 - i; j++){ 
+    for (let i = 0; i < arrData.length ; i++) { 
+      for(let j = 0; j < arrData.length - 1 - i; j++){ 
         if (arr[j] > arr[j+1]){ 
           let temp = arr[j + 1]; 
           arr[j] = arr[j+1]; 
