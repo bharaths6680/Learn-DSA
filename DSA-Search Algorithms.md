@@ -65,3 +65,18 @@ if (result !== -1) {
 
 **Note: 
 
+**Linear Programming**
+
+1. Decision Variables: Decison variables represents choices
+2. Objective function: The objective function is optimized (maximized or minimized)
+3. Constraints: Constraints are limitations or requirements to staisfy
+
+**Constratints Satisfaction Problems (CSPS)**
+It helps to solve the complex issues by finding the solutions that satisfy a set of constraints
+
+*Constrain Propgation used to reduce the space by enforcing constraints early, which helps finding the solutions early*
+
+**EX: we use this method in Suduku development**
+
+
+   
