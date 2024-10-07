@@ -1,4 +1,4 @@
-let token = "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"
+let token = "061xH05pYVH90XoUbcaANt5m63D8ZN4rqmlv_phg"
 
 function readToken () {
 return token
