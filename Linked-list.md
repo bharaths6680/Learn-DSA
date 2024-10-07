@@ -19,7 +19,24 @@
    A **linked list** is a linear data structure where each element (called a node) contains two parts: 
    - **Data**: The actual data.
    - **Pointer (or link)**: A reference (or pointer) to the next node in the sequence.
-   
+  
+   ```js
+   const list = {
+    head: {
+        value: 6
+        next: {
+            value: 10                                             
+            next: {
+                value: 12
+                next: {
+                    value: 3
+                    next: null    
+                    }
+                }
+            }
+        }
+    };
+  ``` 
    **The nodes are not stored in contiguous memory locations**;
    instead, each node points to the next node, forming a chain-like structure. T
    here are several types of linked lists, such as singly linked lists, doubly linked lists, and circular linked lists.
