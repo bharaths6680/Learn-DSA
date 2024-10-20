@@ -9,3 +9,6 @@
 3. The last element to be added is the first to be removed (LIFO: Last In, First Out).
 
 ex: **the stack of coins**
+
+![image](https://github.com/user-attachments/assets/32f33e8c-d98a-4d83-87d3-19a3cdf11e52)
+
